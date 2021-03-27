@@ -25,14 +25,17 @@ export function SideMenu() {
 				<div className = 'inline'>
 					<p>R </p>
 					<input className = 'inputRange' type = 'range' />
+					<input className = 'inputBox rgbBox' type = 'text' />
 				</div>
 				<div className = 'inline'>
 					<p>G </p>
 					<input className = 'inputRange' type = 'range' />
+					<input className = 'inputBox rgbBox' type = 'text' />
 				</div>
 				<div className = 'inline'>
 					<p>B </p>
 					<input className = 'inputRange' type = 'range' />
+					<input className = 'inputBox rgbBox' type = 'text' />
 				</div>
 			</div>
 
