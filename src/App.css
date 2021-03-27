@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+html {
+    background-color: crimson;
+    font-size: 1.5vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.app {
+    text-align: center;
+    background-color: crimson;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sideMenu {
+    width: 20vw;
+    height: 100vh;
+    background-color: aqua;
+    position: absolute;
+    right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.hexInput p {
+    margin: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.colorPickerCanvas {
+    width: 35vw;
+    height: 35vw;
+    background-color: burlywood;
+    position: absolute;
+    left: 25vw;
+    top: 10vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pickerTypeMenu {
+    width: 35vw;
+    height: 10vh;
+    background-color: darkorange;
+    position: absolute;
+    left: 25vw;
+    top: calc(35vw + 10vh);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputRange {
+    width: 80%;
+}
+
+.inputBox {
+    height: 1.5vw;
+    font-size: 1.5vw;
+    width: 150px;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+#canvas {
+    width: 100%;
+    height: 100%;
 }
